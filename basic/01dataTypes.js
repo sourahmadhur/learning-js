@@ -20,4 +20,7 @@ let age = 22;
 console.log(typeof Me)
 console.log(typeof age )
 
+
+console.log("h")
+
  
