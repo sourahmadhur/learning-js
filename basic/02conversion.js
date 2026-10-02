@@ -33,3 +33,54 @@ let someNum = 66
 let newSomeNum = String (someNum)
 console.log(newSomeNum)
 console.log(typeof newSomeNum)
+
+console.log("operations starting from here ")
+
+let value = 55; 
+let negValue = -value 
+console.log(negValue)
+console.log(4*3)
+console.log(4-3)
+console.log(4/3) 
+console.log(4%3) // modulo == used to check reminder
+console.log(4**3) // power 4 to the poer 3 , 4*4*4
+
+
+let str1 = "hello "
+let str2 = "jiii"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + "2")
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 3) // agr pahle string hai to pura chiz ko string mana jayega 
+console.log(1 + 2 + "3") // jaise yahan pahle number tha to addition hua per fir string aya to usko as a string hi treat kiya gya 
+// yesab kuch js k doccument rules me hi hai 
+
+
+
+// increment and decrement
+let live = 33
+ ++live; 
+console.log(live)
+
+let live1 = 77
+live1++;
+console.log(live1)
+
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+
