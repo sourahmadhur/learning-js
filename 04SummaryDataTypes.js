@@ -58,8 +58,12 @@ let obj1 = {
     name: "sushank",
     age: 22,
 }
+console.log("value of obj1 before assiging other value to obj2 ", obj1);
+
+
 let obj2 = obj1
+console.log("value of obj2  before assiging other value to obj2 " , obj1);
 obj2.name = "sahil"
-console.log("value of obj1:", obj1);
-console.log("value of obj2:", obj2);
+console.log(" updated value of obj1:", obj1);
+console.log("updatede value of obj2:", obj2);
 // yahan pe dono ki value change hui kyuki dono same memory location pe store hue the , aisa bol sakte hai ki dono same copy hai , dono ke same memory location hai , isi liye dono ki value change hui
