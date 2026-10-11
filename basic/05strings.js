@@ -38,12 +38,12 @@ const newusername= username.trim() // trims extra space from start and end  of t
 console.log(newusername)
 
 
-let user2 = "raaju broo!!!!!"
+let user2 = "raaju broo!!!!! mera bhai h"
 let newuser2 = user2.replace('broo' , 'bhaiiiii') // text replacement
 console.log(newuser2)
 console.log(user2.includes('bhaiiiii')) // to check that desired srtring is present or not
 console.log(newuser2.includes('bhaiiiii'))
 
-
+console.log(user2.split(' ')) // ye string ko array me split krta hai , based on anything joki hmne iss casee me space diya hai 
 
 
