@@ -23,7 +23,7 @@ console.log(cost.toLocaleString('en-IN')); // aisa krne pe ye indian std me numb
 // ++++++++++++++. Math. +++++++++++++++++++++++++++
 //math ak inbuild library hai js ka jo humlog ko kuch kuch operation me help krta hai 
 
-console.log(Math);
+
 
 console.log(Math.abs(-1000)); // abs negative value ko positive me badalne ka kaam krta hai
 
@@ -42,6 +42,14 @@ console.log(Math.max(96,334, 7778, 80, -8)); // higest finder
 console.log(Math.random()); // returns number between 0 to 1 
 console.log(Math.random()*100); //returns value between 0-100
 console.log(Math.floor((Math.random()*100)+1)); //returns value between 1-100
+
+
+
+//to get any number bewtwwn any range 
+const min = 5
+const max = 9
+
+console.log(Math.floor(Math.random()* (max-min+1))+min);
 
 
 
