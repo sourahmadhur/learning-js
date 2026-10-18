@@ -26,12 +26,18 @@ console.log(aboutme[sym]) // ye tRIKLA HAI  symbols recall krne ka kisi object k
 
 aboutme.lastWeakLogins = ["monday" , "tuesday" , "wednsday" , "friday" ]
 console.log(aboutme);
-Object.freeze(aboutme)
+ Object.freeze(aboutme)
 
 aboutme.lastWeakLogins = ["monday" , "tuesday" , "wednsday" , "friday" , "saturday" ] // ye daal dene se humara object ka element update nhi hoga 
 // bhalle isse update krne pee error nahi arrrha lakin isse update nhi hoga humara element
 
 
 
+// NICHE K CODE KO ENABLE KROGE TOH OBJECT.FREEZE WALA COMMAND OFF KRNA
+// aboutme.greeting = function(){
+//     console.log(`hello i m sourabh , my age is ${this.age}` );
+// }
+
+// console.log(aboutme.greeting());
 
 
