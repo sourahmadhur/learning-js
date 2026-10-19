@@ -1,3 +1,7 @@
+
+// object consist of two things , key and value 
+// let obj ={ key : value }
+
 // object litrals 
 
 const sym = Symbol("key01") // premetive data type me symbol nam ka chiz hota hai , wahi yahan pe declare hua h
