@@ -62,5 +62,5 @@ const class3 = [
 ]
 
 console.log(class3[1].girls3); // recall krne ka method id situation k liye 
-
+console.log(class3)
 
