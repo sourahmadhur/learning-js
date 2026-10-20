@@ -54,7 +54,7 @@ function isLoggedIn(username){
  return `hello ${username} , wellcome to the platform`
 }
 
-console.log(isLoggedIn(""));
+console.log(isLoggedIn("")); // inputs ko change kr sakte hai , 
 // console.log(isLoggedIn());
 // console.log(isLoggedIn("sourabh"));
 

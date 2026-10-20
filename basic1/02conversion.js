@@ -5,7 +5,7 @@ console.log(typeof (result ))
 let result1 = "59" // this is string value 
 console.log(typeof result1) 
 let newResult1 = Number (result1) // converting string into number 
-console.log("newResult " + newResult1)
+console.log("newResult : " + newResult1)
 console.log("type of newresult is  " + typeof newResult1)
 
 
@@ -45,7 +45,7 @@ console.log(4/3)
 console.log(4%3) // modulo == used to check reminder
 console.log(4**3) // power 4 to the poer 3 , 4*4*4
 
-
+// adding two strings 
 let str1 = "hello "
 let str2 = "jiii"
 let str3 = str1 + str2
@@ -63,16 +63,21 @@ console.log(1 + 2 + "3") // jaise yahan pahle number tha to addition hua per fir
 // increment and decrement
 let live = 33
  ++live; 
-console.log(live)
+console.log(live) // 34
 
 let live1 = 77
-live1++;
-console.log(live1)
+
+console.log(live1++) // 77 
+console.log(live1) // 78
 
 
 let x = 3;
 const y = x++;
+// Yahan x++ ka matlab hai pehle purani value use karo, phir x ko 1 se increase karo.
 
+// Isliye do kaam honge:
+// 1. y ko x ki purani value milegi, yani 3.
+// 2. Uske baad x ki value 4 ho jayegi.
 console.log(`x:${x}, y:${y}`);
 // Expected output: "x:4, y:3"
 

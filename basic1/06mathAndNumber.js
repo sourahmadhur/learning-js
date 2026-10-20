@@ -6,12 +6,13 @@ console.log(myRcount);
 console.log(typeof(myRcount))
 
 let stringMyRcount = myRcount.toString()
-console.log(typeof(stringMyRcount));
+console.log("type of stringMyRcount: " , typeof(stringMyRcount)); // string
 
-console.log(myBcount.toFixed(2)) //ye usefull hota hai jahan tmko decimal me kaam krna hai ,  ex ecommers me price cALCULATION ME 
+console.log(myBcount.toFixed(2)) // 2.00 //ye usefull hota hai jahan tmko decimal me kaam krna hai ,  ex ecommers me price cALCULATION ME 
 
 let sahilDogla= 98.92
-console.log(a=sahilDogla.toPrecision(2)) // precision me round off hota hai per ye kabhi kabhi dikkt krta hai 
+console.log(a=sahilDogla.toPrecision(2)) // 99 , () me 2 hai mtlb round off 2 digit me hoga
+// precision me round off hota hai per ye kabhi kabhi dikkt krta hai 
 // sath me to precision ak string output deta hai
 
 
@@ -29,9 +30,9 @@ console.log(Math.abs(-1000)); // abs negative value ko positive me badalne ka ka
 
 console.log(Math.round(533.98)); // round off krta h
 
-console.log(Math.ceil(77.122)); // upper value me round off krega 
+console.log(Math.ceil(77.122)); // 78 upper value me round off krega 
 
-console.log(Math.floor(898.992)); //lower value me round off krega 
+console.log(Math.floor(898.992)); //898 lower value me round off krega 
 
 console.log(Math.min(2,4,1,4,7,3,1)); // lowest finder in js
 

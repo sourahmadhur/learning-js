@@ -32,8 +32,10 @@ let myObj = { //obj
 const myFunction = function(){ //fnc
     console.log("Hello world");
 }
+console.log(myFunction()); 
+ 
 
-console.log(typeof anotherId);
+console.log(typeof anotherId); // change it to see each data types
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 

@@ -7,7 +7,7 @@ console.log(5!=9)
 console.log(44<=44)
 console.log(3!=5)
 
-console.log("02" == 2);  // aise diffrent data type se compare krne pe humlog ko kabhi kabhi desired result nhi milta hai isi liye humlog ko ye diffrent data types se compair krna nhi chahhiye
+console.log("02" == 2); // true // aise diffrent data type se compare krne pe humlog ko kabhi kabhi desired result nhi milta hai isi liye humlog ko ye diffrent data types se compair krna nhi chahhiye
 
 
 console.log("comparision with null ");
