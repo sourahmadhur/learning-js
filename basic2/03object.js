@@ -4,7 +4,7 @@
 
 // object litrals 
 
-const sym = Symbol("key01") // premetive data type me symbol nam ka chiz hota hai , wahi yahan pe declare hua h
+const sym = Symbol("key01") //  symbol premetive data type hai , wahi yahan pe declare hua h
 
 const aboutme = {
     Myname : "sourabh" ,
@@ -22,7 +22,7 @@ console.log(aboutme.lastWeakLogins);
 
 // better way to recall elements of obj
 console.log(aboutme["full name"]);
-console.log(aboutme["isLogedIn"]);
+console.log("is i am logged in : ",aboutme["isLogedIn"]);
 
 console.log(aboutme[sym]) // ye tRIKLA HAI  symbols recall krne ka kisi object k andr
 

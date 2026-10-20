@@ -1,4 +1,4 @@
-const boys = ["raj" , "lal" , "sonu"]
+const boys = ["raj" , "lalu" , "sonu"]
 const girls = ["riya" , "summi" , "tina"]
 const trans = [ "hina " , "raanu" , "rina"]
 
@@ -22,7 +22,7 @@ const newMarks = marks.flat(Infinity) // pura array ko hmne akhi array me forcef
 console.log(newMarks);
 
 
-// Array.isArray() — Check karta hai ki value array hai ya nahi
+ Array.isArray() // Check karta hai ki value array hai ya nahi // kyuki array ka type obj hota hai to hmlog usko type of se nhi dekh sakte 
 
 const myArr = [1, 2, 3, 4];
 
