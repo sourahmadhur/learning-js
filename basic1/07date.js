@@ -1,5 +1,5 @@
 let MyDate = new Date() // date declare aise krte hain 
-console.log(MyDate); // date js me 1970s se avi tak live count hota hai wohi isme aajjeb sa print hota hai 
+console.log("printed MyDate : " , MyDate); // date js me 1970s se avi tak live count hota hai wohi isme aajjeb sa print hota hai  , milli seconds me
 console.log(MyDate.toString()); // isme date string me convert hota hai 
 console.log(MyDate.toDateString()); // ye date or time print krta hai , 
 console.log(MyDate.toLocaleString()); 
@@ -10,16 +10,16 @@ console.log(MyDate.toLocaleString());
 // date me month 0 se count hona shuru hota hai 
 let createdDate = new Date(2026 , 9 , 12)
 
-console.log(createdDate.toDateString())
+console.log("print created date: " ,createdDate.toDateString())
 
 
 // to represent date with time 
 let createdDate2 = new Date(2026, 9, 1, 05, 32, 08)
-console.log(createdDate2.toLocaleString())
+console.log("print created date2 :",createdDate2.toLocaleString())
 
 // to represent using dd mm yyyy , indian format me 
-let mydobb = new Date(2005 , 10 , 27 , 6, 30) // ye array nhi h date to iska index 1 se shuru hua 
-console.log(mydobb.toLocaleString("en-IN"))
+let mydobb = new Date(2005 , 10 , 27 , 16, 30) // ye array nhi h date to iska index 1 se shuru hua 
+console.log("my date of birth in indian format : ",mydobb.toLocaleString("en-IN"))
 
 
 // aise hmlog koi v exact time nikallenge jisse hmlog badd me project banane me help lenge jaha hlog ko bhut jada time specific kaam krna hoga wahan ye use hoga 
