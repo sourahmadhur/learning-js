@@ -47,16 +47,28 @@ console.log("answer: ", answer);
 
 // logged in check krne wala function 
 function isLoggedIn(username){
-    if (username === undefined){
+    // if (username === undefined){
+       if (!username){
         console.log("please enter username")
         return
     }
  return `hello ${username} , wellcome to the platform`
 }
 
-console.log(isLoggedIn("")); // inputs ko change kr sakte hai , 
-// console.log(isLoggedIn());
+//console.log(isLoggedIn("")); // inputs ko change kr sakte hai , 
+console.log(isLoggedIn());
 // console.log(isLoggedIn("sourabh"));
+
+
+// avi tak humlog aisa function banaye jisme hmloog input 2 hi diye , lakin ab agr hmlog ko agr multiple value kisi function me input krwana ho to hmlog rest operator use krnge 
+// reset operator bhut jada use hota h , jaise cart me jitne item add hue usko add krna ho etc , ye spread operator jaisa hi dikhta hai 
+// rest or spreader operator apne. use case k according kaam krta hai
+function cartpriceadd(...num1){
+    return num1
+
+}
+console.log(cartpriceadd(27 , 55 , 11 , 44, 920))
+// ab aise krne pe humara function sara inputs ko array k form me output de rhha , isko aram se hmlog add kr sakte hain 
 
 
 
