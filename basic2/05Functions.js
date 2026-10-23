@@ -70,6 +70,29 @@ function cartpriceadd(...num1){
 console.log(cartpriceadd(27 , 55 , 11 , 44, 920))
 // ab aise krne pe humara function sara inputs ko array k form me output de rhha , isko aram se hmlog add kr sakte hain 
 
+// passing object into function
+// yaha humne ak sample obj banaya
+const user ={
+    username : "sourabh",
+    age : 21
+}
+
+// uss obj ko humne yaha function k andr pass kiya 
+function recall(anyUser){
+    console.log(`hello! ${anyUser.username} , your age is ${anyUser.age}`)
+
+}
+recall(user)
+
+// passing array into function 
+const users = ["sourBH" , "sonu " , "monu" , "pnkj"]
+
+function returnArrElement(anyusers){
+    return anyusers[2]
+}
+console.log(returnArrElement(users))
+
+
 
 
 
